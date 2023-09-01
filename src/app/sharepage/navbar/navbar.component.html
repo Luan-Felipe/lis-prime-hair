@@ -1,20 +1,47 @@
 <!-- component -->
-<nav class="font-sans flex flex-col text-center content-center sm:flex-row sm:text-left sm:justify-between py-2 px-6 bg-bg-200 shadow sm:items-baseline w-full">
-    <div class="mb-2 sm:mb-0 inner">
-  
-      <a href="/home" class="text-2xl no-underline text-grey-darkest hover:text-blue-dark font-sans font-bold">Lis</a><br>
-      <span class="text-xs text-grey-dark">Prime Hair</span>
-  
-    </div>
-  
-    <div class="sm:mb-0 self-center">
-      <!-- <div class="h-10" style="display: table-cell, vertical-align: middle;"> -->
-      <a href="#" class="text-md no-underline text-black hover:bg-accent-100 rounded-lg ml-2 px-1">Home</a>
-      <a href="#" class="text-md no-underline text-grey-darker hover:bg-accent-100 rounded-lg ml-2 px-1">Sobre</a>
-      <!-- <a href="/two" class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2">About Us</a> -->
-      <a href="#" class="text-md no-underline text-grey-darker hover:bg-accent-100 rounded-lg ml-2 px-1">Serviços</a>
-      <a href="#" class="text-md no-underline text-grey-darker hover:bg-accent-100 rounded-lg ml-2 px-1">Contato</a>
-      <!-- </div> -->
-  
-    </div>
-  </nav>
+<nav
+  class="font-sans flex flex-col text-center content-center sm:flex-row sm:text-left sm:justify-between py-2 px-6 bg-bg-200 shadow sm:items-baseline w-full"
+>
+  <div class="mb-2 sm:mb-0 inner">
+    <a
+      class="text-2xl no-underline text-grey-darkest hover:text-blue-dark font-sans font-bold"
+      >Lis</a
+    ><br />
+    <span class="text-xs text-grey-dark">Prime Hair</span>
+  </div>
+
+  <div class="sm:mb-0 self-center">
+    <!-- <div class="h-10" style="display: table-cell, vertical-align: middle;"> -->
+    <a
+      href="#"
+      class="text-md no-underline text-black hover:bg-accent-100 rounded-lg ml-2 px-1"
+      routerLink=""
+      routerLinkActive="active-link"
+      [routerLinkActiveOptions]="{ exact: true }"
+      >Home</a
+    >
+    <a
+      href="#"
+      class="text-md no-underline text-grey-darker hover:bg-accent-100 rounded-lg ml-2 px-1"
+      routerLink="about"
+      routerLinkActive="active-link"
+      >Sobre</a
+    >
+    <!-- <a href="/two" class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2">About Us</a> -->
+    <a
+      href="#"
+      class="text-md no-underline text-grey-darker hover:bg-accent-100 rounded-lg ml-2 px-1"
+      routerLink="service"
+      routerLinkActive="active-link"
+      >Serviços</a
+    >
+    <a
+      href="#"
+      class="text-md no-underline text-grey-darker hover:bg-accent-100 rounded-lg ml-2 px-1"
+      routerLink="contact"
+      routerLinkActive="active-link"
+      >Contato</a
+    >
+    <!-- </div> -->
+  </div>
+</nav>
