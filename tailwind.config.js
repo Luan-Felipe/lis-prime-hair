@@ -17,7 +17,7 @@ module.exports = {
       'bg-300':'#ccb6a5',
     },
     extend: {
-         
+        
     },
   },
   plugins: [],
